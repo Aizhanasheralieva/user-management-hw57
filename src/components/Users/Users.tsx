@@ -9,8 +9,8 @@ interface Props {
 const Users: React.FC<Props> = ({users}) => {
   return (
     <>
-      {users.map(user => (
-        <UserItem key={user.name} user={user} />
+      {users.map((user) => (
+        <UserItem key={user.id} user={user} />
       ))}
 
     </>
