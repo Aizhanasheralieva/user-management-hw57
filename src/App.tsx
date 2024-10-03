@@ -1,9 +1,7 @@
-import './App.css'
+import UserManagement from './containers/UserManagement/UserManagement.tsx';
 
-const App = () => (
-  <>
+const App = () => {
+  return <UserManagement />;
+};
 
-  </>
-);
-
-export default App
+export default App;
